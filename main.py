@@ -1,6 +1,5 @@
 import random
 from tkinter.constants import BOTTOM, END, INSERT, LEFT, RIGHT, TOP
-from typing import Sized, Text
 import PasswordChecker
 import tkinter
 from tkinter import filedialog
@@ -22,7 +21,6 @@ def main():
     # TEXTVIEW UI
     textView = tkinter.Text(GUI_Window)
     textView.pack()
-
 
 
     # PASSWORD AMOUNT ENTRY UI
